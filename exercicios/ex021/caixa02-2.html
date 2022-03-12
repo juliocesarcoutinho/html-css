@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css"> <!-->
+        <style>
+            body {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                background-color: dimgray;
+                margin: 0;
+            }
+
+            header {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px;
+            }
+
+            nav {
+                text-align: center;
+                background-color: rgb(97, 94, 94);
+                padding: 3px;
+            }
+
+            nav > a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
+            nav > a:hover{
+                text-decoration: underline;
+                color: black;
+                background-color: lightyellow;
+            }
+
+            main {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px;
+                box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.384) ;
+            }
+            article {
+                background-color: lightgray;
+                padding: 5px;
+                margin: 10px;
+            }
+            article > aside {
+                background-color: rgb(121, 117, 117);
+            }
+
+            aside > p {
+                color: white;
+           
+            }
+            footer {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 2px;
+                margin: 0;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 40px;
+            }
+        </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link1</a>
+            <a href="#">Link1</a>
+            <a href="#">Link1</a>
+            <a href="#">Link1</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Noticia sobre a Miriã</h2>
+                <p> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, nemo.</p></p>
+                <aside>
+                   <p>Escrito Por Rebekinha</p>
+                </aside>
+            </article>
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre a Rebekinha</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nobis!</p>
+                <aside>
+                    <p>Escrito por Miriã Cara de Rã</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Julio</p>
+    </footer>
+</body>
+</html>

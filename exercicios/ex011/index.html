@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <H1>Imagem Dinamica</H1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nobis quo quidem ipsum veniam quisquam obcaecati tempora. Vel nostrum accusantium odit reiciendis, inventore sequi non dolore at totam asperiores pariatur!</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="imagem Grande">
+    </picture>
+    <p>Essa imagem é de mim mesmo sendo um trabalhador mais gostoso da smart</p>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="img/eu-300.jpg" type="image/jpg">
+            <source media="(max-width: 1110px)" srcset="img/eu-700.jpg" type="image/jpg">
+            <img src="img/eu-full.jpg" alt="Eu Gatão">
+        </picture>
+
+        <h1>Vamos testar um pouco de audio</h1>
+        <p>Veja aqui esse som maneiro</p>
+        <!-- <audio src="midia/musica2.mp3" controls .autoplay></audio> -->
+        <audio>
+            <source src="midia/musica2.mp3" type="audio/mpeg">
+        </audio>
+
+        
+
+</body>
+</html>

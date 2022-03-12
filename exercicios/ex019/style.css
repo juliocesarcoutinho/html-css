@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(79, 163, 79, 0.699);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1{
+    color: rgb(30, 77, 30);
+}
+
+h2{
+    color: #0477049c;
+    text-transform: uppercase;
+}
+#principal{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(23, 105, 23);
+    color: wheat;
+}
+
+.form-text{
+    text-transform: uppercase;
+    background-color: #0477049c;
+    color: #ffffff;
+}
